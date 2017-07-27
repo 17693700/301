@@ -1,0 +1,128 @@
+.clr{
+	clear:both;
+}
+.article{
+	width:1000px;
+	margin:0 auto;
+	margin-top:10px;
+	background-image:url(article_bg.jpg);
+	background-repeat:repeat-x;
+	border:#cccccc 1px solid;
+}
+.article h3{ 
+	padding-top:5px;	 
+	color:black;
+	padding-left:10px;
+	margin:0px;
+	height:30px; 
+	border-bottom:#cccccc 1px dashed;
+	margin:5px;
+}
+.article_left{ 
+	float:left;
+	width:450px; 
+	margin:5px;
+}
+.article_center{
+	float:left;
+	width:250px;
+	padding-right:10px; 
+	border-right:#E5E5E5 1px solid;
+	margin:5px;
+}
+.article_right{
+	float:left;
+	width:250px; 
+	margin:5px;
+}
+.article_list { 
+	padding:10px;
+	font-family:'新宋体';
+}
+
+
+
+.brand_index{
+	width:1200px;
+	margin:0 auto;
+	margin-top:10px;
+}
+ 
+.b_item{
+	overflow: hidden; 
+	float: left; 
+	width: 140px; 
+	height: 50px;
+	text-align:center;
+	border:1px solid #efefef;
+	margin:5px 5px 5px 5px;
+	padding:5px;
+}
+
+.promotion{
+	background:url(bar_bg.jpg) repeat-x; 
+	background-color:#FFF2BE;
+} 
+ 
+
+/* 类目查询条件 start */
+.cond{
+	padding:10px;
+}
+.caption h1{
+	float:left; 
+	padding:0px;
+	margin:0px;
+	font-size:18px;
+	padding-left:10px;
+}
+.caption span{
+	float:left;
+	width:300px;
+	padding-left:20px;
+}
+.caption a{
+	float:right;
+	width:300px;
+	text-align:right;
+}
+ 
+.cond_item a{
+	padding:5px; 
+}
+.cond_item a:hover{ 
+	background-color:#FF6F3D;
+	color:white;
+}
+.cond_hover{
+	background-color:#FF6F3D;
+	color:white;
+}
+.cond_hover a{
+	background-color:#FF6F3D;
+	color:white;
+}
+/* 类目查询条件 end*/
+
+/* 商品规格 start */ 
+.goods_price li.selftypeof{clear:both;float:left;width:100%;margin-top:12px}
+.goods_price li.selftypeof .label{float:left;height:26px;line-height:26px;font-weight:bold;}
+.goods_price li.selftypeof .options{float:left;width:300px}
+.goods_price li.selftypeof .options li{float:left;width:59px;height:26px;text-align:center;padding-right:6px;padding-bottom:6px;line-height:25px}
+.goods_price li.selftypeof .options li a{display:block;width:57px;height:24px;border:1px solid #ccc;text-decoration:none}
+.goods_price li.selftypeof .options li a:hover{border-color:#FF6F3D}
+.goods_price li.selftypeof .options li a.hover,.goods_price li.selftypeof .options li a.hover:hover{width:59px;height:26px;border:none; background-image:url("/common/icon/buy_btn_green.jpg");background-repeat:no-repeat;background-position:-182px -69px}
+ 
+/* 商品规格 end */
+
+
+
+.goods_props{
+	padding:10px;
+}
+
+.goods_props li{
+	float:left;
+	width:25%;
+}
+ 

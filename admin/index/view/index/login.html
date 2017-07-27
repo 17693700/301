@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>企业控制台 - {$Think.config.sitename}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<script type="text/javascript" src="/static/admin/index/js/index.js"></script> 
+
+</head>
+<body>
+<div style="width:70%;margin:20px auto 0;">
+    <div style="margin-top:90px"></div>
+    <table width="100%">
+      <tr> 
+        <td valign="top">
+            <div style="margin-left:50px;">
+                <span style="font-size:24px;color:#DD4B39">帐户</span>
+                <br/><br/>
+                登录 <b>三九轴承网</b> 企业控制台，获得更多支持服务。
+                <br/><br/> 
+                在右侧登录，创建帐户请咨询管理员。
+                <br/><br/> 
+                <table width="90%" id="lead">
+                    <tr>
+                        <td height="55" width="100"><img src="http://www.999zcw.com/images/tel.jpg" style="width:80px"></td>
+                        <td><span style="font-size:15px">三九轴承网24小时客服热线<br><b style="color:red;font-size:18px">021-62399998</b></span></td>
+                    </tr>
+                    <tr>
+                        <td height="55"><img src="http://www.999zcw.com/images/service.jpg" style="width:80px"></td>
+                        <td><span style="font-size:15px">三九轴承网技术支持<br/>Q Q：<b>17693700</b></span></td>
+                    </tr>
+                    <tr>
+                        <td height="55"><img src="http://www.999zcw.com/images/qr.jpg" style="width:80px;padding:5px;background-color:#efefef"></td>
+                        <td><span style="font-size:15px">微信公众平台<br/>微信号：<b>Azcw999</b></span></td>
+                    </tr>
+                </table>
+ 
+            </div> 
+        </td>
+        <td valign="top" align="right" width="50%">
+        <form id="loginform" method="post" action="?ac=login&hash=<?=strtoupper(substr(md5('IYUNTI_CONSOLE'.date('Ymd')),0,20))?>" onsubmit="return verify(this)" style="background-color:#F1F1F1;border:solid 1px #E5E5E5;margin-right:30px;width:335px;height:305px;"> 
+        <table width="80%" align="center"> 
+          <tr> 
+            <td align="left" height="69"><span style="font-size:16px">登录</span></td>
+            <td align="right"><a href="http://www.999zcw.com/" target="_blank" title="访问官方网站"><img src="images/logo.png" style="height:36px" border="0"></a></td>
+          </tr> 
+          <tr> 
+            <td colspan="2" align="left" height="60"><b>账号：</b><br/>
+            <input name="account" type="text" id="account" value="" style="width:250px;height:20px;border:solid 1px #D9D9D9;padding:3px;font-size:14px;font-family:Arial;font-weight:bold;"/></td>
+          </tr>
+          <tr> 
+            <td colspan="2" align="left" height="60"><b>密码：</b><br/>
+            <input name="password" type="password" id="password"  style="width:250px;height:20px;border:solid 1px #D9D9D9;padding:3px;"/></td>
+          </tr> 
+          <tr> 
+            <td colspan="2" align="left" height="30"> 
+            <input type="image" src="images/logon.gif" align="absmiddle"/>
+            <span id="feedback" style="color:red"></span>
+            <br/><br/> 
+            <a href="javascript:alert('请致电：021-60345223');">忘记登录密码？</a>  
+            </td>
+          </tr>
+        </table>
+      </form> 
+      </td>
+    </tr>
+    </table> 
+
+    <div style="border-top:solid 1px #EBEBEB; margin-top:120px"></div>
+    <table width="98%">
+     <tr>
+        <td style="font-family:arial;">&copy;2013 三九轴承网&#8482; 版权所有 </td>
+     </tr>
+     </table> 
+</div>
+</body>
+</html>
